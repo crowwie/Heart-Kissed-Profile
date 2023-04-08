@@ -1,0 +1,701 @@
+/* Profile Theme
+ * @commission for heart kissed
+ * @author Crowwie
+ * ------------------------------------------------------ */
+
+html, body{
+  background: url(https://images2.imgbox.com/bf/ae/ZRqoauvp_o.png) repeat;
+  margin: 0 auto 0 auto;
+  float: none;
+}
+
+body {
+cursor: url(https://cur.cursors-4u.net/anime/ani-1/ani184.cur), default;
+}
+
+a:link, a:hover {
+cursor: url(https://cur.cursors-4u.net/anime/ani-1/ani184.cur), url(https://cur.cursors-4u.net/anime/ani-1/ani184.cur), default;
+}
+
+/* HEADER */
+
+
+#gaia_header{
+  background: #fbbccb;
+  border-bottom: 1px dotted #fbf0f1;
+}
+
+#gaia_header ul{
+  background: none !important;
+  font-family: 'SofiaRegular', sans-serif;
+  text-transform: uppercase;
+  font-size: 0 !important;
+}
+
+#gaia_header a{
+  color: #bc7e8b !important;
+  font-weight: normal;
+  font-size: 10px;
+  text-decoration: none;
+  margin: 0 5px;
+  line-height: 25px;
+  transition: .3s all;
+  opacity: .5;
+}
+
+#gaia_header a:hover{
+  opacity: .8;
+}
+
+#header_left img {
+  width: 0px;
+  padding: 0 45px 0 0;
+  background: url('https://images2.imgbox.com/3f/f5/OrqzEGyS_o.png') bottom left no-repeat;
+}
+
+
+/* BODY DETAILS CONTROLS */
+
+
+#pictures_container, #texts_container{
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 760px;
+  font-family: 'ManicMondayRegular', sans-serif;
+  font-size: 10px;
+}
+
+#columns{
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  position: relative;
+  top: 0px;
+  overflow: visible;
+}
+
+#column_1, #column_2, #column_3{font-size: 0; overflow: visible; margin: 0; width: 100%; float: none;}
+
+.panel{
+  top: 250px;
+  color: #bc7e8b;
+  font-family: 'ManicMondayRegular', sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  text-align: center;
+  background: #fbf0f1;
+  border: 1px dotted #fbbccb;
+  padding: 10px;
+}
+
+.panel h2{color: white;
+  font-family: 'SofiaRegular', sans-serif;
+  letter-spacing: 3px;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #C73553;
+  border-bottom: 1px dotted #fbbccb;
+  height: 15px;
+  padding: 5px;
+  margin: -5px -5px 5px -5px;
+  background: none;
+}
+
+.panel h3{font-weight: normal;}
+
+.panel a, .panel p strong{color: #fbbccb; font-weight: normal; transition: .3s all;}
+.panel a:hover{color: #cd8b9a; text-decoration: none;}
+
+.panel img{max-width: 100% !important;}
+
+.panel .buttons{top: 0; right: 0;}
+
+#content, #header{
+  border:0px;
+}
+
+
+/* BODY ELEMENTS */
+
+
+#id_media_11013 {
+  position: absolute;
+  right: 310px;
+  top: 650px;
+  width: 200px;
+  align: center;
+  background: transparent;
+  border: 0px;
+  z-index: +3;
+}
+#id_media_11013 h2 {
+  display: none;
+}
+
+
+#id_forum {
+  z-index: +5;
+}
+
+#id_signature {
+  z-index: +5;
+}
+
+
+#id_wishlist {
+  z-index: +5;
+}
+
+#id_details {
+  position: absolute;
+  right: -275px;
+  top: 140px;
+  width: 200px;
+  align: center;
+  background: transparent;
+  border: 0px;
+  z-index: +5;
+}
+#id_details p, #id_forum p{margin: 0;}
+#id_details h2{display: none;}
+#id_details .forum_userstatus{
+position: absolute;
+  right: 15px;
+  top: 225px;
+  width: 75px;
+  align: center;
+  background: #fbf0f1;
+  border: 1px dotted
+  z-index: +3;
+}
+#id_details .online, #id_details .offline{font-size: 13px; color: #fbbccb;}
+
+.pushBox, #avatar_menu{
+  display: none !important;
+}
+#avatar_menu{
+  font-family: 'SofiaRegular', sans-serif;
+  text-transform: uppercase;
+  background: #fbf0f1;
+}
+#avatar_menu a{
+  font-size: 13px;
+  color: #fbbccb;
+  text-align: center;
+}
+#avatar_menu a:hover{background: #fbbccb; color: white;}
+
+#alert_container{float: none;}
+#id_comments .avatarImage{height: 75px; width: 60px;}
+#id_comments dt{border-bottom: 1px dotted #fbbccb;}
+#id_comments {
+  position: absolute;
+  left: -325px;
+  top: 85px;
+  width: 250px;
+}
+
+
+#id_wishlist .item, #id_equipment .item, #id_friends ul li{display: inline-block; float: none !important; max-width: 65px; max-height: 70px;}
+
+#id_friends ul li p{margin-bottom: 2px;}
+#id_friends ul li img{border: 1px dotted #fbbccb;}
+#id_friends {
+  z-index: +3;
+  line-height: 60%;
+  position: absolute;
+  left: -325px;
+  top: 600px;
+  width: 250px;
+}
+
+#id_footprints {
+  z-index: +3;
+  position: absolute;
+  left: -325px;
+  top: 725px;
+  width: 250px;
+}
+
+#id_wishlist, #id_equipment{font-size: 0;}
+#id_wishlist .item, #id_equipment .item{padding: 2px; border-radius: 3px; transition: .3s all;}
+#id_wishlist .item:hover, #id_equipment .item:hover{ background: #cd8b9a; text-decoration: none;}
+
+#id_equipment {
+  position: absolute; 
+  right: -277px; 
+  top: 391px; 
+  width: 200px;
+  z-index: +6;
+}
+
+#id_about {
+  z-index: +3;
+}
+
+#id_contact {
+  z-index: +3;
+  position: absolute; 
+  right: -277px; 
+  top: 625px; 
+  width: 200px;
+}
+
+
+/* CUSTOMS */
+
+/* box over doily */
+
+#id_custom_4209{
+  background: #fbf0f1;
+  position: absolute;
+  right: -250px;
+  top: 290px;
+  width: 150px;
+  height: 50px;
+  align: center;
+  overflow: visible;
+  z-index: +2;
++
+}
+#id_custom_4209 h2{
+  display: none;
+}
+
+
+/* avi doily */
+
+#id_custom_4206{
+  background: url(https://images2.imgbox.com/17/4d/FyayyKRz_o.png) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: -440px;
+  top: 100px;
+  width: 380px;
+  height: 500px;
+  align: center;
+  overflow: visible;
+  z-index: +1;
+}
+
+#id_custom_4206 h2{
+  display: none;
+}
+
+
+/* big hello kitties */
+
+#id_custom_4212 {
+  background: url(http://i304.photobucket.com/albums/nn189/yellowbrickalleyway/Pixels/Characters/th_325.gif) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: 200px;
+  width: 100px;
+  height: 200px;
+  top: 150px;
+  overflow: visible;
+}
+#id_custom_4212 h2{
+  display: none;
+}
+
+#id_custom_4215 {
+  background: url(http://i304.photobucket.com/albums/nn189/yellowbrickalleyway/Pixels/Characters/th_338.gif) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: 300px;
+  width: 100px;
+  height: 200px;
+  top: 150px;
+  overflow: visible;
+}
+#id_custom_4215 h2{
+  display: none;
+}
+
+#id_custom_4218 {
+  background: url(http://i304.photobucket.com/albums/nn189/yellowbrickalleyway/Pixels/Characters/th_316.gif) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: 400px;
+  width: 100px;
+  height: 200px;
+  top: 150px;
+  overflow: visible;
+}
+#id_custom_4218 h2{
+  display: none;
+}
+
+#id_custom_4221 {
+  background: url(http://i304.photobucket.com/albums/nn189/yellowbrickalleyway/Pixels/Characters/th_327.gif) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: 500px;
+  width: 100px;
+  height: 200px;
+  top: 150px;
+  overflow: visible;
+}
+#id_custom_4221 h2{
+  display: none;
+}
+
+ #id_custom_4227 {
+  background: url(http://i304.photobucket.com/albums/nn189/yellowbrickalleyway/Pixels/Characters/th_321.gif) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: 100px;
+  width: 100px;
+  height: 200px;
+  top: 150px;
+  overflow: visible;
+}
+#id_custom_4227 h2{
+  display: none;
+}
+
+
+/* top pixel drops */
+
+#id_custom_4242 {
+  background: url(https://64.media.tumblr.com/9f65d275bc0343d15f3587f734495141/efd2dc04648571f9-b2/s400x600/e82ac1becca808f2aab4e5b90bba5614527a00df.gifv) repeat-x;
+  border: 0px;
+  position: absolute;
+  right: -175px;
+  height: 50px;
+  width: 100%;
+  top: -5px;
+  overflow: visible;
+}
+#id_custom_4242 h2{
+  display: none;
+}
+
+#id_custom_4230 {
+  background: url(https://64.media.tumblr.com/9f65d275bc0343d15f3587f734495141/efd2dc04648571f9-b2/s400x600/e82ac1becca808f2aab4e5b90bba5614527a00df.gifv) repeat-x;
+  border: 0px;
+  position: absolute;
+  right: 600px;
+  height: 100%;
+  width: 100%;
+  top: -5px;
+  overflow: visible;
+}
+#id_custom_4230 h2{
+  display: none;
+}
+
+#id_custom_4233 {
+  background: url(https://64.media.tumblr.com/9f65d275bc0343d15f3587f734495141/efd2dc04648571f9-b2/s400x600/e82ac1becca808f2aab4e5b90bba5614527a00df.gifv) repeat-x;
+  border: 0px;
+  position: absolute;
+  right: -970px;
+  height: 100%;
+  width: 100%;
+  top: -5px;
+  overflow: visible;
+}
+#id_custom_4233 h2{
+  display: none;
+}
+
+/* hello kitty avi friend */
+
+#id_custom_4236 {
+  background: url(https://cutekawaiiresources.files.wordpress.com/2013/03/hk49.gif?w=150&h=143) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: -290px;
+  width: 100px;
+  height: 250px;
+  top: 258px;
+  overflow: visible;
+  z-index: +5;
+}
+#id_custom_4236 h2{
+  display: none;
+}
+
+
+/* large bottom kitties */
+
+#id_custom_4257 {
+  background: url(https://i.pinimg.com/originals/5e/d2/f3/5ed2f3136debfe6c5f7ed4544f73ee25.gif) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: 0px;
+  width: 600px;
+  height: 700px;
+  top: 300px;
+  z-index: 0;
+}
+#id_custom_4257 h2{
+  display: none;
+}
+
+
+/* youtube pixel drop */
+
+#id_custom_4248 {
+  background: url(https://64.media.tumblr.com/9f65d275bc0343d15f3587f734495141/efd2dc04648571f9-b2/s400x600/e82ac1becca808f2aab4e5b90bba5614527a00df.gifv) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: 195px;
+  width: 300px;
+  height: 200px;
+  top: 810px;
+  overflow: visible;
+  z-index: +3;
+}
+#id_custom_4248 h2{
+  display: none;
+}
+
+/* youtube pixel cover */
+
+#id_custom_4251 {
+  background: url(https://64.media.tumblr.com/036297bcda068f425120855c7c30619f/tumblr_inline_p7g2ttF2vI1rujz3w_500.gifv) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: 65px;
+  width: 500px;
+  height: 150px;
+  top: 590px;
+  overflow: visible;
+  z-index: +4;
+}
+#id_custom_4251 h2{
+  display: none;
+}
+
+/* youtube background plates */
+
+#id_custom_4245 { 
+background: url(https://i3.glitter-graphics.org/pub/1006/1006683w35ky0rw2d.gif) no-repeat;
+ border:
+ 0px;
+ position: absolute;
+ right: 125px;
+ width: 350px;
+ height: 250px;
+ top: 605px;
+ overflow: visible;
+ z-index: +0; 
+}
+#id_custom_4245 h2{
+ display: none;
+}
+
+#id_custom_4254 {
+ background: url(https://i3.glitter-graphics.org/pub/1006/1006683w35ky0rw2d.gif) no-repeat;
+ border: 0px;
+ position: absolute;
+ right: 175px;
+ width: 350px;
+ height: 250px;
+ top: 605px;
+ overflow: visible;
+ z-index: +0;
+}
+#id_custom_4254 h2{
+ display: none;
+}
+
+
+/* avi flowers */
+
+#id_custom_4260 {
+  background: url(https://i9.glitter-graphics.org/pub/1148/1148119w2gpblepe6.gif) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: -325px;
+  width: 100px;
+  height: 500px;
+  top: 100px;
+  overflow: visible;
+  z-index: +4;
+}
+#id_custom_4260 h2{
+  display: none;
+}
+
+/* bg sparkles */
+
+#id_custom_4263 {
+  background: url(https://64.media.tumblr.com/4e8815b2f6e03522f247c769e5b87042/tumblr_n89mjdPTpC1snc5kxo1_1280.gif) repeat;
+  border: 0px;
+  position: absolute;
+  right: -500px;
+  width: 2000px;
+  height: 1100px;
+  top: 0px;
+  overflow: none;
+}
+#id_custom_4263 h2{
+  display: none;
+}
+
+/* add more images */
+
+/* copy this template, then replace the ## with the panel's custom ID. Change the perimeters as needed, specifically right/top and height/width */
+/*
+#id_custom_## {
+  background: url(xx) no-repeat;
+  border: 0px;
+  position: absolute;
+  right: 200px;
+  width: 100px;
+  height: 200px;
+  top: 50px;
+  overflow: visible;
+}
+#id_custom_## h2{
+  display: none;
+}
+*/
+
+
+/* ANIMATIONS */
+
+/* 'dropdownsmall', 'dropdownmedium', 'dropdownlarge', etc. are interchangeable, use another if there is clipping */
+
+#id_about{height: 10px;  overflow: hidden;}
+#id_about:hover{animation-name: dropdownsmall;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+#id_journal{ height: 10px;  overflow: hidden;}
+#id_journal:hover{animation-name: dropdownsmall;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+#id_signature{height: 10px; overflow: hidden;}
+#id_signature:hover{animation-name: dropdownlarge;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+#id_friends{height: 10px;  overflow: hidden;}
+#id_friends:hover{animation-name: dropdownsmall;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+#id_about{height: 10px; overflow: hidden;}
+#id_about:hover{animation-name: dropdownsmall;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+#id_wishlist{height: 10px; overflow: hidden;}
+#id_wishlist:hover{animation-name: dropdownxl;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+#id_forum{height: 10px; overflow: hidden;}
+#id_forum:hover{animation-name: dropdownsmall;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+#id_footprints{height: 10px; overflow: hidden;}
+#id_footprints:hover{animation-name: dropdownmedium;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+#id_equipment{height: 10px; overflow: hidden;}
+#id_equipment:hover{animation-name: dropdownml;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+#id_contact{height: 10px; overflow: hidden;}
+#id_contact:hover{animation-name: dropdownxs;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+/* ANIMATION CODES */
+
+/* feel free to make a new animation, all you do is copy one of these, then change the name (downdownxs, etc) and the last number (leave the 10px).) */
+
+@keyframes dropdownxs {
+  from {height: 10px;}
+  to {height: 75px;}
+}
+@keyframes dropdownsmall {
+  from {height: 10px;}
+  to {height: 100px;}
+}
+@keyframes dropdownmedium {
+  from {height: 10px;}
+  to {height: 150px;}
+}
+@keyframes dropdownml {
+  from {height: 10px;}
+  to {height: 200px;}
+}
+@keyframes dropdownlarge {
+  from {height: 10px;}
+  to {height: 250px;}
+}
+@keyframes dropdownxl {
+  from {height: 10px;}
+  to {height: 400px;}
+}
+
+
+/* ETC */
+
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-track {background: #fbf0f1;}
+::-webkit-scrollbar-thumb {background: #fbbccb;}
+::-webkit-scrollbar-thumb:hover {background: #e5a2b1;}
+
+.premium_sparkle{margin: 0 0 0 -30px; position: relative; top: 0; right: 0;}
+
+.media_panel embed, .media_panel object{height:25px; width:60px;}
+
+.menu_seperator, #find_friends_banner, #alerts_banner, .deletecomment, #id_comments dd:nth-of-type(n+5), #id_comments dt:nth-of-type(n+5){
+  display: none;
+}
+
+/* FONT IMPORT */
+
+@font-face {
+    font-family: 'SofiaRegular';
+        src: url('https://fontlibrary.org/assets/fonts/sofia/a81e6d78de38906c404cc1dd5fbab270/f02fbd329eb5b8e80e15d9fb4cbb959f/SofiaRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+@font-face {
+    font-family: 'ManicMondayBold';
+        src: url('https://fontlibrary.org/assets/fonts/manic-monday/652e46be2ebb3378afa4a7fe679df4fd/09b2868f540714aca96c68f19315b068/ManicMondayBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'ManicMondayRegular';
+        src: url('https://fontlibrary.org/assets/fonts/manic-monday/652e46be2ebb3378afa4a7fe679df4fd/3b0281273e8f965c3a2140d61a0041e3/ManicMondayRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
